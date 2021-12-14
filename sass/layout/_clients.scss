@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.clients-item {
+.clients-list__item {
   width: 170px;
   height: 92px;
   & + & {
@@ -30,7 +30,7 @@
 //   margin-left: 30px;
 // }
 
-.clients-link {
+.clients-list__link {
   width: 100%;
   height: 100%;
   border: 1px solid #afb1b8;
@@ -50,6 +50,6 @@
   }
 }
 
-.clients-icon {
+.clients-list__icon {
   fill: currentColor;
 }
